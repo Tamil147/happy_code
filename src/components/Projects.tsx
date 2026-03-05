@@ -44,7 +44,7 @@ export const Projects: React.FC = () => {
             description: 'A modern web application for showcasing and managing a bike showroom.',
             tags: ['React', 'Firebase', 'Tailwind', 'WebSocket'],
             image: bikeImg,
-            link: 'https://giri9025.github.io/bike-project/',
+            link: 'https://giri9025.github.io/Bike-project/',
         },
         {
             id: 3,
