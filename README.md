@@ -25,43 +25,7 @@ A modern, premium dark theme portfolio website built with React, Tailwind CSS, a
 
 The contact form uses EmailJS for sending emails directly from the frontend without requiring a backend server.
 
-### Quick Setup:
 
-1. **Create EmailJS Account**: Visit [https://www.emailjs.com/](https://www.emailjs.com/)
-
-2. **Configure Email Service**:
-   - Add your email service (Gmail, Outlook, Yahoo, etc.)
-   - Get your **Service ID**
-
-3. **Create Email Template**:
-   ```
-   Subject: New Contact Form Message from {{from_name}}
-
-   From: {{from_name}} ({{from_email}})
-
-   Message:
-   {{message}}
-
-   ---
-   This message was sent from your portfolio website contact form.
-   ```
-
-4. **Update Configuration**:
-   ```typescript
-   // src/config/emailjs.ts
-   export const EMAIL_CONFIG = {
-     SERVICE_ID: 'your_service_id',
-     TEMPLATE_ID: 'your_template_id',
-     PUBLIC_KEY: 'your_public_key',
-     TO_EMAIL: 'your@email.com',
-   }
-   ```
-
-### Features:
-- ✅ Real email sending (no backend required)
-- ✅ Loading states and error handling
-- ✅ Success confirmation
-- ✅ Form validation
 
 ## 📦 Installation
 
